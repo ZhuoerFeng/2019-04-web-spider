@@ -1,0 +1,56 @@
+tcp/ip
+
+port 0 - 32767
+<1000 system
+<10000 protected
+
+request
+response
+
+http
+header
+    key value
+
+body
+    xml html json
+
+xml
+<fzetql>
+    <gugugugu guagua="23333" biu="ha">
+        iijijijj
+    </gugugugu>
+    <dua>
+    </dua>
+    <selfclosed />
+</fzetql>
+
+html
+<div>
+    <span>233</span>
+</div>
+
+json
+{
+    "data": {
+        "haha": true,
+        "biu": 23333
+    },
+    "jijiji": "23323"
+}
+
+Method: [GET POST] PATCH PUT DELETE
+URL: [protocol]://[domain](path)
+
+MIME Type
+
+status
+2xx normal
+3xx temp
+4xx known errors
+5xx unknown errors
+
+cookie
+set-cookie (response)
+cookie (request)
+4kb
+
